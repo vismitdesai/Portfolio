@@ -5,194 +5,428 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Vismit Desai - Procurement and Supply Chain Professional">
 <title>Vismit Desai - Procurement & Supply Chain Professional</title>
-
 <style>
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-  line-height: 1.6;
-  color: #333;
-  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
-  min-height: 100vh;
-  padding: 20px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+line-height: 1.6;
+color: #333;
+background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+min-height: 100vh;
+padding: 20px;
 }
 
 .container {
-  max-width: 1000px;
-  margin: 0 auto;
-  background: white;
-  border-radius: 20px;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-  overflow: hidden;
+max-width: 1000px;
+margin: 0 auto;
+background: white;
+border-radius: 20px;
+box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+overflow: hidden;
 }
 
 .header {
-  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
-  color: white;
-  padding: 60px 40px;
-  text-align: center;
+background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+color: white;
+padding: 60px 40px;
+text-align: center;
 }
 
 .header h1 {
-  font-size: 2.8em;
-  margin-bottom: 10px;
-  font-weight: 700;
+font-size: 2.8em;
+margin-bottom: 10px;
+font-weight: 700;
 }
 
 .header .title {
-  font-size: 1.3em;
-  opacity: 0.95;
-  margin-bottom: 20px;
+font-size: 1.3em;
+opacity: 0.95;
+margin-bottom: 20px;
 }
 
 .contact-info {
-  display: flex;
-  justify-content: center;
-  gap: 25px;
-  flex-wrap: wrap;
-  margin-top: 20px;
-  font-size: 0.95em;
+display: flex;
+justify-content: center;
+gap: 25px;
+flex-wrap: wrap;
+margin-top: 20px;
+font-size: 0.95em;
 }
 
 .contact-info a {
-  color: white;
-  text-decoration: none;
-  padding: 8px 16px;
-  border: 2px solid rgba(255, 255, 255, 0.3);
-  border-radius: 20px;
-  transition: all 0.3s;
+color: white;
+text-decoration: none;
+padding: 8px 16px;
+border: 2px solid rgba(255, 255, 255, 0.3);
+border-radius: 20px;
+transition: all 0.3s;
 }
 
 .contact-info a:hover {
-  background: rgba(255, 255, 255, 0.2);
-  border-color: white;
-  transform: translateY(-2px);
+background: rgba(255, 255, 255, 0.2);
+border-color: white;
+transform: translateY(-2px);
 }
 
 .contact-info span {
-  opacity: 0.9;
+opacity: 0.9;
 }
 
 .content {
-  padding: 50px 40px;
+padding: 50px 40px;
 }
 
 .section {
-  margin-bottom: 45px;
+margin-bottom: 45px;
 }
 
 .section h2 {
-  color: #1e3c72;
-  font-size: 1.9em;
-  margin-bottom: 25px;
-  padding-bottom: 10px;
-  border-bottom: 3px solid #2a5298;
+color: #1e3c72;
+font-size: 1.9em;
+margin-bottom: 25px;
+padding-bottom: 10px;
+border-bottom: 3px solid #2a5298;
 }
 
 .summary {
-  font-size: 1.05em;
-  color: #555;
-  line-height: 1.9;
-  text-align: justify;
+font-size: 1.05em;
+color: #555;
+line-height: 1.9;
+text-align: justify;
 }
 
 .skills-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap: 20px;
 }
 
 .skill-category h3 {
-  color: #2a5298;
-  font-size: 1.15em;
-  margin-bottom: 12px;
-  font-weight: 600;
+color: #2a5298;
+font-size: 1.15em;
+margin-bottom: 12px;
+font-weight: 600;
 }
 
 .skill-category ul {
-  list-style: none;
+list-style: none;
 }
 
 .skill-category li {
-  padding: 6px 0;
-  color: #666;
-  font-size: 0.95em;
+padding: 6px 0;
+color: #666;
+font-size: 0.95em;
 }
 
 .skill-category li:before {
-  content: "▹ ";
-  color: #1e3c72;
-  font-weight: bold;
-  margin-right: 5px;
+content: "▹ ";
+color: #1e3c72;
+font-weight: bold;
+margin-right: 5px;
 }
 
-.experience-item,
+.experience-item {
+margin-bottom: 35px;
+padding: 25px;
+background: #f8f9fa;
+border-radius: 12px;
+border-left: 5px solid #2a5298;
+}
+
+.experience-item h3 {
+color: #1e3c72;
+font-size: 1.4em;
+margin-bottom: 8px;
+}
+
+.experience-item .role {
+color: #2a5298;
+font-weight: 600;
+font-size: 1.05em;
+margin-bottom: 5px;
+}
+
+.experience-item .date {
+color: #888;
+font-size: 0.9em;
+margin-bottom: 15px;
+font-style: italic;
+}
+
+.experience-item .location {
+color: #666;
+font-size: 0.9em;
+margin-bottom: 12px;
+}
+
+.experience-item ul {
+margin-top: 12px;
+margin-left: 20px;
+}
+
+.experience-item li {
+color: #555;
+margin-bottom: 8px;
+line-height: 1.6;
+}
+
 .education-item {
-  margin-bottom: 35px;
-  padding: 25px;
-  background: #f8f9fa;
-  border-radius: 12px;
-  border-left: 5px solid #2a5298;
+margin-bottom: 25px;
+padding: 20px;
+background: #f8f9fa;
+border-radius: 12px;
+border-left: 5px solid #2a5298;
 }
 
-.experience-item h3,
 .education-item h3 {
-  color: #1e3c72;
+color: #1e3c72;
+font-size: 1.25em;
+margin-bottom: 5px;
+}
+
+.education-item .degree {
+color: #2a5298;
+font-weight: 600;
+margin-bottom: 5px;
+}
+
+.education-item .date {
+color: #888;
+font-size: 0.9em;
 }
 
 .cert-badge {
-  display: inline-block;
-  background: #e8f0fe;
-  color: #1e3c72;
-  padding: 10px 20px;
-  border-radius: 25px;
-  font-weight: 600;
-  margin: 5px;
+display: inline-block;
+background: #e8f0fe;
+color: #1e3c72;
+padding: 10px 20px;
+border-radius: 25px;
+font-weight: 600;
+margin: 5px;
 }
 
 @media (max-width: 768px) {
-  .header h1 {
-    font-size: 2em;
-  }
+.header h1 {
+font-size: 2em;
+}
 
-  .header .title {
-    font-size: 1.1em;
-  }
+.header .title {
+font-size: 1.1em;
+}
 
-  .content {
-    padding: 30px 25px;
-  }
+.content {
+padding: 30px 25px;
+}
 
-  .contact-info {
-    flex-direction: column;
-    gap: 10px;
-  }
+.contact-info {
+flex-direction: column;
+gap: 10px;
+}
+
+.skills-grid {
+grid-template-columns: 1fr;
+}
+
+.experience-item, .education-item {
+padding: 20px;
+}
 }
 </style>
 </head>
-
 <body>
 <div class="container">
-  <div class="header">
-    <h1>VISMIT DESAI</h1>
-    <div class="title">Procurement & Supply Chain Professional</div>
+<div class="header">
+<h1>VISMIT DESAI</h1>
+<div class="title">Procurement & Supply Chain Professional</div>
+<div class="contact-info">
+<a href="mailto:vismitd@gmail.com">vismitd@gmail.com</a>
+<a href="https://www.linkedin.com/in/vismit-desai" target="_blank">LinkedIn</a>
+<span>+353 834127422</span>
+<span>Dublin, Ireland</span>
+</div>
+</div>
 
-    <div class="contact-info">
-      <a href="mailto:vismitd@gmail.com">vismitd@gmail.com</a>
-      <span>+353 834127422</span>
-      <span>Dublin, Ireland</span>
-      <a href="https://www.linkedin.com/in/vismit-desai" target="_blank" rel="noopener noreferrer">
-        LinkedIn Profile
-      </a>
-    </div>
-  </div>
+<div class="content">
+<section class="section">
+<h2>Professional Summary</h2>
+<p class="summary">
+Procurement and supply chain professional with 8+ years of experience across procurement operations,
+vendor management, contract negotiation, inventory control, and compliance in multinational environments.
+Strong background in strategic sourcing, P2P processes, ERP systems (Oracle), budgeting, KPI tracking,
+and logistics coordination. Proven ability to improve process efficiency, ensure audit compliance, and
+support cost control initiatives. Currently completing a Post Graduate Diploma in Procurement and Supply
+Chain Management in Dublin.
+</p>
+</section>
 
-  <!-- REST OF YOUR CONTENT REMAINS UNCHANGED -->
+<section class="section">
+<h2>Core Competencies</h2>
+<div class="skills-grid">
+<div class="skill-category">
+<h3>Procurement & Supply Chain</h3>
+<ul>
+<li>Strategic Sourcing</li>
+<li>Vendor Management</li>
+<li>Contract Negotiation</li>
+<li>Inventory Control</li>
+<li>P2P Processes</li>
+<li>Logistics Coordination</li>
+</ul>
+</div>
+<div class="skill-category">
+<h3>Operations & Compliance</h3>
+<ul>
+<li>Process Optimization</li>
+<li>Audit Compliance</li>
+<li>Six Sigma Principles</li>
+<li>SLA Management</li>
+<li>KPI Tracking</li>
+<li>Budget Management</li>
+</ul>
+</div>
+<div class="skill-category">
+<h3>Technical Skills</h3>
+<ul>
+<li>Oracle ERP</li>
+<li>MS Office Suite</li>
+<li>Amadeus CRS/GDS</li>
+<li>Citrix</li>
+<li>National Business Platform</li>
+<li>NewGenLib</li>
+</ul>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>Professional Experience</h2>
+
+<div class="experience-item">
+<h3>Vianova</h3>
+<div class="location">Dublin, Ireland</div>
+<div class="role">Processing Clerk</div>
+<div class="date">August 2023 - Present</div>
+<ul>
+<li>Process, repair, balance and verify 500+ financial lodgments daily, maintaining 100% accuracy and compliance with internal controls</li>
+<li>Perform detailed reconciliation and cross-examination of delivery data, reducing discrepancies and rework</li>
+<li>Apply Six Sigma principles and adhere strictly to SOPs to ensure data integrity and operational consistency</li>
+<li>Support accurate financial reporting through precise transaction verification and documentation</li>
+</ul>
+</div>
+
+<div class="experience-item">
+<h3>All India Institute of Medical Sciences (AIIMS)</h3>
+<div class="location">India</div>
+<div class="role">Administrator</div>
+<div class="date">August 2021 - September 2022</div>
+<ul>
+<li>Managed administrative and operational activities across multiple hospital departments</li>
+<li>Supported workforce planning, recruitment, onboarding, and performance management</li>
+<li>Assisted in coordination of vendors and service providers to support hospital operations</li>
+<li>Ensured compliance with internal policies, government regulations, and documentation standards</li>
+</ul>
+</div>
+
+<div class="experience-item">
+<h3>Alghanim International General Trading & Contracting Co</h3>
+<div class="location">Kuwait</div>
+<div class="role">Procurement Officer</div>
+<div class="date">November 2013 - May 2021</div>
+<ul>
+<li>Managed end-to-end procurement lifecycle including requisitions, RFQs/RFPs, vendor evaluation, negotiations, and contract finalization</li>
+<li>Operated purchase-to-pay (P2P) workflows ensuring approval efficiency, audit readiness, and policy compliance</li>
+<li>Evaluated suppliers on cost, quality, delivery performance and payment terms to mitigate operational and financial risks</li>
+<li>Negotiated pricing and contracts to achieve cost optimization and improved commercial terms</li>
+<li>Coordinated with 3PL and logistics providers to ensure timely delivery and minimize supply chain disruptions</li>
+<li>Controlled inventory levels and tracked procurement KPIs to support demand planning and operational efficiency</li>
+<li>Managed procurement budgets and monitored plan versus actual schedules to drive performance improvements</li>
+<li>Ensured SLA compliance and maintained accurate contract and procurement documentation</li>
+<li>Followed up on accounts receivables & payable items, ensuring timely resolution and accurate financial records</li>
+</ul>
+</div>
+
+<div class="experience-item">
+<h3>Amadeus India Pvt. Ltd.</h3>
+<div class="location">India</div>
+<div class="role">Executive</div>
+<div class="date">August 2012 - December 2013</div>
+<ul>
+<li>Managed travel bookings and resolved discrepancies using Amadeus CRS/GDS systems</li>
+<li>Coordinated with airlines and travel agents to ensure smooth operational execution</li>
+<li>Processed invoices, payments and reimbursements accurately and within deadlines</li>
+<li>Handled confidential customer and financial data in line with security standards</li>
+</ul>
+</div>
+
+<div class="experience-item">
+<h3>Christ Institute of Management</h3>
+<div class="location">India</div>
+<div class="role">Administrator</div>
+<div class="date">January 2013 - August 2013</div>
+<ul>
+<li>Coordinated academic schedules, faculty meetings and administrative activities</li>
+<li>Organized seminars and workshops, supporting institutional engagement initiatives</li>
+<li>Maintained academic records and ensured compliance with internal policies</li>
+</ul>
+</div>
+
+<div class="experience-item">
+<h3>Institute of Technology and Science</h3>
+<div class="location">India</div>
+<div class="role">Librarian</div>
+<div class="date">June 2010 - May 2012</div>
+<ul>
+<li>Managed library inventory, cataloguing and database updates</li>
+<li>Implemented operational procedures to improve accessibility and user satisfaction</li>
+<li>Delivered orientation sessions on systems and resource usage</li>
+</ul>
+</div>
+
+<div class="experience-item">
+<h3>GS Industries</h3>
+<div class="location">India</div>
+<div class="role">Data Analyst</div>
+<div class="date">June 2007 - May 2010</div>
+<ul>
+<li>Performed data analysis and interpretation to support operational decision making</li>
+<li>Contributed to budgeting, forecasting, and planning activities</li>
+<li>Produced reports under tight deadlines with strong attention to detail</li>
+</ul>
+</div>
+</section>
+
+<section class="section">
+<h2>Education</h2>
+
+<div class="education-item">
+<h3>Griffith College</h3>
+<div class="degree">Post Graduate Diploma in Procurement and Supply Chain Management</div>
+<div class="date">February 2023 - February 2025 | Dublin, Ireland</div>
+</div>
+
+<div class="education-item">
+<h3>Saurashtra University</h3>
+<div class="degree">Master of Arts</div>
+<div class="date">April 2011 - April 2013 | India</div>
+</div>
+
+<div class="education-item">
+<h3>Saurashtra University</h3>
+<div class="degree">Bachelor of Arts</div>
+<div class="date">April 2004 - April 2007 | India</div>
+</div>
+</section>
+
+<section class="section">
+<h2>Certifications</h2>
+<div class="cert-badge">Diploma in Computer Application (DCA)</div>
+</section>
+</div>
 </div>
 </body>
 </html>
